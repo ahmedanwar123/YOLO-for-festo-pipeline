@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['NoLid', 'Workpiece']
+
+roboflow:
+  workspace: festo
+  project: festoproject-cjyma
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/festo/festoproject-cjyma/dataset/2
